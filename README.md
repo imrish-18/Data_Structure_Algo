@@ -1,1 +1,1 @@
-# Data_Structure_Alog
+# Data_Structure_Algo
