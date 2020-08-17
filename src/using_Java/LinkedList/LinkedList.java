@@ -44,7 +44,7 @@ public class LinkedList {
 	 
   }
 	
- // displaying the element in linkedlist
+ // displaying the element of linked list
 	static void traverse(Node list)
 	{
 		Node temp=list;
@@ -69,7 +69,7 @@ public class LinkedList {
 		}
 		temp.next=createNode(data);
 	 }
-	 // deleting first node in linkedlist
+	 // deleting first node from linked  list
 	 static void deleteFirstNode(LinkedList list)
 	 {
 		 Node temp;
@@ -78,7 +78,7 @@ public class LinkedList {
 		temp=null;
 		
 	 }
-	// deleting first node in linked list
+	// deleting last node from linked list
 	 static void lastNodeDeleteion(LinkedList list)
 	 {
 		
@@ -94,6 +94,7 @@ public class LinkedList {
 	     n=null;
 	 }
 	 
+	 // reverse the linked list
 	 static void reverseLinkedList(LinkedList list)
 	 
 	 {
